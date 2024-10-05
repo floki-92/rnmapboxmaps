@@ -385,7 +385,7 @@ public class RNMBXLayer : UIView, RNMBXMapComponent, RNMBXSourceConsumer {
 protocol LayerWithSource : Layer {
   var source: String? { get set }
   var sourceLayer: String? { get set }
-  var filter: Expression? { get set}
+  var filter: MapboxMaps.Expression? { get set}
 }
 #else
 protocol LayerWithSource : Layer {
